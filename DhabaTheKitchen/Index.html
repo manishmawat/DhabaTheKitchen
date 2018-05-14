@@ -1,0 +1,37 @@
+﻿<!doctype <!DOCTYPE html>
+<html ng-app="myKitchenModule">
+<head>
+    <title>Page Title</title>
+    <!-- <script src="main.js"></script> -->
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <link href="Styles/Styles.css" rel="stylesheet" />
+    <script src="Scripts/script.js"></script>
+</head>
+<body>
+    <table style="font-family: Arial">
+        <tr>
+            <td colspan="2" class="header">
+                <h1>
+                    Dhaba The Kitchen
+                </h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftMenu">
+                <a href="#/menu">Menu</a>
+                <a href="#/branches">Our Branches</a>
+                <a href="#/aboutUs">About Us</a>
+            </td>
+            <td class="mainContent">
+                <ng-view></ng-view>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                <b>WebSite Footer</b>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

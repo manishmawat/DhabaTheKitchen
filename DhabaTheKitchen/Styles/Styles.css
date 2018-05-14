@@ -1,0 +1,28 @@
+.header{
+    width:800px;
+    height:80px;
+    text-align:center;
+    background-color: darkgray;
+}
+
+.footer{
+    background-color: darkgray;
+    text-align: center;
+}
+
+.leftMenu{
+    width:150px;
+    height:500px;
+    background-color: grey;
+}
+
+.mainContent{
+    width:650px;
+    height:500px;
+    background-color: gainsboro;
+}
+
+a{
+    display: block;
+    padding: 5px;
+}

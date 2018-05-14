@@ -1,0 +1,29 @@
+<h1>{{message}}</h1>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr ng-repeat="item in menuItems">
+                    <td>{{item.item}}</td>
+                    <td>{{item.rate}}</td>
+                </tr>
+                <!--<tr>
+                        <td>Shahi Paneer</td>
+                        <td>520</td>
+                </tr>
+                <tr>
+                        <td>Kadhai Paneer</td>
+                        <td>450</td>
+                </tr>
+                <tr>
+                        <td>Paneer Do Pyaza</td>
+                        <td>420</td>
+                </tr>-->                                                
+        </tbody>
+    </table>
+</div>
